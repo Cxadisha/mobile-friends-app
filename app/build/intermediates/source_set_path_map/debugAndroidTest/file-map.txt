@@ -1,0 +1,9 @@
+com.example.android.testing.espresso.BasicSample.test.app-annotation-experimental-1.1.0-0 C:\Users\Cxadisha\.gradle\caches\transforms-3\52dc8a3342dcf1a1dff1d6981a48cf32\transformed\annotation-experimental-1.1.0\res
+com.example.android.testing.espresso.BasicSample.test.app-core-1.5.0-1 C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\res
+com.example.android.testing.espresso.BasicSample.test.app-androidTest-2 C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\generated\res\resValues\androidTest\debug
+com.example.android.testing.espresso.BasicSample.test.app-androidTest-3 C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\generated\res\rs\androidTest\debug
+com.example.android.testing.espresso.BasicSample.test.app-mergeDebugAndroidTestResources-4 C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.android.testing.espresso.BasicSample.test.app-mergeDebugAndroidTestResources-5 C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.android.testing.espresso.BasicSample.test.app-merged_res-6 C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\merged_res\debugAndroidTest
+com.example.android.testing.espresso.BasicSample.test.app-androidTest-7 C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\androidTest\res
+com.example.android.testing.espresso.BasicSample.test.app-androidTestDebug-8 C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\androidTestDebug\res

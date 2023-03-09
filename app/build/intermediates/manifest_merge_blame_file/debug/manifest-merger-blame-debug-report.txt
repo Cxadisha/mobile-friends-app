@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3~ Copyright (C) 2015 The Android Open Source Project
+4~
+5~ Licensed under the Apache License, Version 2.0 (the "License");
+6~ you may not use this file except in compliance with the License.
+7~ You may obtain a copy of the License at
+8~
+9~   http://www.apache.org/licenses/LICENSE-2.0
+10~
+11~ Unless required by applicable law or agreed to in writing, software
+12~ distributed under the License is distributed on an "AS IS" BASIS,
+13~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14~ See the License for the specific language governing permissions and
+15~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.testing.espresso.BasicSample"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="18"
+23-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="33" />
+24-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+26-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+27
+28    <queries>
+28-->[androidx.test:runner:1.5.2] C:\Users\Cxadisha\.gradle\caches\transforms-3\9ad72b462ad76ff7b4c98be539aded21\transformed\runner-1.5.2\AndroidManifest.xml:24:5-28:15
+29        <package android:name="androidx.test.orchestrator" />
+29-->[androidx.test:runner:1.5.2] C:\Users\Cxadisha\.gradle\caches\transforms-3\9ad72b462ad76ff7b4c98be539aded21\transformed\runner-1.5.2\AndroidManifest.xml:25:9-62
+29-->[androidx.test:runner:1.5.2] C:\Users\Cxadisha\.gradle\caches\transforms-3\9ad72b462ad76ff7b4c98be539aded21\transformed\runner-1.5.2\AndroidManifest.xml:25:18-59
+30        <package android:name="androidx.test.services" />
+30-->[androidx.test:runner:1.5.2] C:\Users\Cxadisha\.gradle\caches\transforms-3\9ad72b462ad76ff7b4c98be539aded21\transformed\runner-1.5.2\AndroidManifest.xml:26:9-58
+30-->[androidx.test:runner:1.5.2] C:\Users\Cxadisha\.gradle\caches\transforms-3\9ad72b462ad76ff7b4c98be539aded21\transformed\runner-1.5.2\AndroidManifest.xml:26:18-55
+31        <package android:name="com.google.android.apps.common.testing.services" />
+31-->[androidx.test:runner:1.5.2] C:\Users\Cxadisha\.gradle\caches\transforms-3\9ad72b462ad76ff7b4c98be539aded21\transformed\runner-1.5.2\AndroidManifest.xml:27:9-83
+31-->[androidx.test:runner:1.5.2] C:\Users\Cxadisha\.gradle\caches\transforms-3\9ad72b462ad76ff7b4c98be539aded21\transformed\runner-1.5.2\AndroidManifest.xml:27:18-80
+32    </queries>
+33
+34    <application
+34-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:21:5-35:19
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.6.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\53838cfac97cc3108772828f7679c097\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@drawable/ic_launcher"
+37-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:22:9-45
+38        android:label="@string/app_name"
+38-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:23:9-41
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme" >
+40-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:24:9-40
+41        <activity
+41-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:25:9-33:20
+42            android:name="com.example.android.testing.espresso.BasicSample.MainActivity"
+42-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:26:13-89
+43            android:exported="true"
+43-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:28:13-36
+44            android:label="@string/app_name" >
+44-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:27:13-45
+45            <intent-filter>
+45-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:29:13-32:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:30:17-69
+46-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:30:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:31:17-77
+48-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:31:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity android:name="com.example.android.testing.espresso.BasicSample.ShowTextActivity" />
+51-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:34:9-101
+51-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:34:19-99
+52        <activity
+52-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+53            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+53-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+54            android:exported="true"
+54-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+55            android:theme="@style/WhiteBackgroundTheme" >
+55-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+56            <intent-filter android:priority="-100" >
+56-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+56-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:31:17-77
+57-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:31:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity
+60-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+61            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+61-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+62            android:exported="true"
+62-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+63            android:theme="@style/WhiteBackgroundTheme" >
+63-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+64            <intent-filter android:priority="-100" >
+64-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+64-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:31:17-77
+65-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:31:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+69            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+69-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+70            android:exported="true"
+70-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+71            android:theme="@style/WhiteBackgroundDialogTheme" >
+71-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+72            <intent-filter android:priority="-100" >
+72-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+72-->[androidx.test:core:1.5.0] C:\Users\Cxadisha\.gradle\caches\transforms-3\89cf76ef43741b0ee90ac5c9277e73aa\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:31:17-77
+73-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\src\main\AndroidManifest.xml:31:27-74
+74            </intent-filter>
+75        </activity>
+76    </application>
+77
+78</manifest>
