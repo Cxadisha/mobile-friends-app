@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3~ Copyright (C) 2018 The Android Open Source Project
+4~
+5~ Licensed under the Apache License, Version 2.0 (the "License");
+6~ you may not use this file except in compliance with the License.
+7~ You may obtain a copy of the License at
+8~
+9~   http://www.apache.org/licenses/LICENSE-2.0
+10~
+11~ Unless required by applicable law or agreed to in writing, software
+12~ distributed under the License is distributed on an "AS IS" BASIS,
+13~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14~ See the License for the specific language governing permissions and
+15~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.testing.espresso.BasicSample.test"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+22-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:23:5-25:41
+23        android:minSdkVersion="18"
+23-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:24:9-35
+24        android:targetSdkVersion="33" />
+24-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:25:9-38
+25
+26    <instrumentation
+26-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:27:5-32:84
+27        android:name="androidx.test.runner.AndroidJUnitRunner"
+27-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:28:9-63
+28        android:functionalTest="false"
+28-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:29:9-39
+29        android:handleProfiling="false"
+29-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:30:9-40
+30        android:label="Tests for com.example.android.testing.espresso.BasicSample"
+30-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:31:9-83
+31        android:targetPackage="com.example.android.testing.espresso.BasicSample" />
+31-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:32:9-81
+32
+33    <application
+33-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:34:5-38:19
+34        android:debuggable="true"
+35        android:label="BasicSampleTest" >
+35-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:35:9-40
+36        <uses-library android:name="android.test.runner" />
+36-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:37:9-60
+36-->C:\Users\Cxadisha\Desktop\Mobile-Projects\mobile-kotlin-homeworks\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile2ProcessTestManifest6192337057860421749.xml:37:23-57
+37    </application>
+38
+39</manifest>

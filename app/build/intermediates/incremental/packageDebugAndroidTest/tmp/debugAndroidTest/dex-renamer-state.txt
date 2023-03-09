@@ -1,0 +1,4 @@
+#Thu Mar 09 15:40:24 GET 2023
+base.0=C\:\\Users\\Cxadisha\\Desktop\\Mobile-Projects\\mobile-kotlin-homeworks\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeDexDebugAndroidTest\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,161 @@
+03-09 15:40:33.483 22219 22239 I TestRunner: started: changeTextAndValidate(com.example.android.testing.espresso.BasicSample.task.tests.ChangeTextTests)
+03-09 15:40:33.497 22219 22239 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-09 15:40:33.502   512   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+03-09 15:40:33.508   400   400 I perfetto: ing_service_impl.cc:758 Configured tracing session 80, #sources:1, duration:5000 ms, #buffers:1, total buffer size:4096 KB, total sessions:1, uid:1071 session name: ""
+03-09 15:40:33.509   394   394 I perfetto: probes_producer.cc:230  Ftrace setup (target_buf=80)
+03-09 15:40:33.522   512   557 D EventSequenceValidator: Transition from INTENT_STARTED to ACTIVITY_LAUNCHED
+03-09 15:40:33.529   512  1823 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.531   512  1823 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.531   512  1823 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.532   512  1823 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.532   512  1823 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.532   512  1823 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.532   512  1823 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.532   512  1823 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.532   512  1823 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.532   512  1823 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.532   512  1823 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.533   512  1823 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:33.535   394   394 I perfetto: ftrace_procfs.cc:176    enabled ftrace
+03-09 15:40:33.612   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3e8000000 0x3e9124000]
+03-09 15:40:33.621 22219 22248 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+03-09 15:40:33.621 22219 22219 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d in: PRE_ON_CREATE
+03-09 15:40:33.621 22219 22219 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+03-09 15:40:33.626 22219 22248 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+03-09 15:40:33.637 22219 22248 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+03-09 15:40:33.730 22219 22219 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d in: CREATED
+03-09 15:40:33.731 22219 22219 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d
+03-09 15:40:33.737 22219 22219 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d in: STARTED
+03-09 15:40:33.737 22219 22219 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d
+03-09 15:40:33.740 22219 22219 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d in: RESUMED
+03-09 15:40:33.741 22219 22219 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d
+03-09 15:40:33.872 22219 22246 D HostConnection: HostConnection::get() New Host Connection established 0xe9828100, tid 22246
+03-09 15:40:33.900 22219 22246 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+03-09 15:40:33.912   154   154 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device manifest.
+03-09 15:40:33.916 22219 22246 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-09 15:40:33.926 22219 22246 D EGL_emulation: eglCreateContext: 0xe9829050: maj 3 min 0 rcv 3
+03-09 15:40:33.928 22219 22246 D EGL_emulation: eglMakeCurrent: 0xe9829050: ver 3 0 (tinfo 0xe9b6d710) (first time)
+03-09 15:40:33.939   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3ea248000 0x3eb36c000]
+03-09 15:40:33.941   154   154 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device manifest.
+03-09 15:40:33.941 22219 22246 I Gralloc4: mapper 4.x is not supported
+03-09 15:40:33.942 22219 22246 D HostConnection: createUnique: call
+03-09 15:40:33.947 22219 22246 D HostConnection: HostConnection::get() New Host Connection established 0xe9828b10, tid 22246
+03-09 15:40:33.947 22219 22246 D goldfish-address-space: allocate: Ask for block of size 0x100
+03-09 15:40:33.947 22219 22246 D goldfish-address-space: allocate: ioctl allocate returned offset 0x3e7ffe000 size 0x2000
+03-09 15:40:33.952 22219 22246 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+03-09 15:40:33.954   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ed124000]
+03-09 15:40:33.956   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3f2253000 0x3f3377000]
+03-09 15:40:34.049   512   562 D ArtManagerInternalImpl: /data/misc/iorapd/com.example.android.testing.espresso.BasicSample/1/com.example.android.testing.espresso.BasicSample.MainActivity/compiled_traces/compiled_trace.pb doesn't exist
+03-09 15:40:34.049   512   557 D EventSequenceValidator: Transition from ACTIVITY_LAUNCHED to ACTIVITY_FINISHED
+03-09 15:40:34.075   512   562 I ActivityTaskManager: Displayed com.example.android.testing.espresso.BasicSample/.MainActivity: +529ms
+03-09 15:40:34.207 22219 22239 W FileTestStorage: Output properties is not supported.
+03-09 15:40:34.208 22219 22239 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+03-09 15:40:34.232 22219 22239 D EventInjectionStrategy: Creating injection strategy with input manager.
+03-09 15:40:34.233 22219 22239 W sso.BasicSampl: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+03-09 15:40:34.233 22219 22239 W sso.BasicSampl: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+03-09 15:40:34.233 22219 22239 W sso.BasicSampl: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+03-09 15:40:34.275 22219 22239 W sso.BasicSampl: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+03-09 15:40:34.298 22219 22219 W sso.BasicSampl: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+03-09 15:40:34.298 22219 22219 W sso.BasicSampl: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+03-09 15:40:34.298 22219 22219 W sso.BasicSampl: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+03-09 15:40:34.304 22219 22219 W sso.BasicSampl: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+03-09 15:40:34.305 22219 22219 W sso.BasicSampl: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+03-09 15:40:34.306 22219 22219 W sso.BasicSampl: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+03-09 15:40:34.322 22219 22219 I ViewInteraction: Performing 'type text(Giorgi Tskhadiashvili)' action on view view.getId() is <2131230871/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+03-09 15:40:34.407  1305  1305 I LatinIME: Starting input. Cursor position = 0,0
+03-09 15:40:34.417 22219 22219 I AssistStructure: Flattened final assist data: 1536 bytes, containing 1 windows, 6 views
+03-09 15:40:34.425  1494  1494 W kqw     : Pending fill request while another request in the same session was triggered. [CONTEXT service_id=177 ]
+03-09 15:40:34.453   349   349 I android.hardware.vibrator-service.example: Vibrator reporting capabilities
+03-09 15:40:34.508   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3e8000000 0x3e9065000]
+03-09 15:40:34.561   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3e9065000 0x3ea0ca000]
+03-09 15:40:34.563  1331  1331 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:2104235204
+03-09 15:40:34.571   307  1926 D goldfish-address-space: claimShared: Ask to claim region [0x3ee696000 0x3ef6fb000]
+03-09 15:40:34.674   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3ed124000 0x3ee248000]
+03-09 15:40:34.752   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3f112f000 0x3f2253000]
+03-09 15:40:34.785 22219 22219 D UiControllerImpl: Injecting string: "Giorgi Tskhadiashvili"
+03-09 15:40:34.803   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3ea0ca000 0x3eb1ee000]
+03-09 15:40:35.075  1305  1391 I LatinIME:LogUtils: Dictionary info: dictionary = spellcheck_userunigram.en_US ; version = 1678362035 ; date = ?
+03-09 15:40:35.149  1305  1391 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+03-09 15:40:35.592 22219 22219 I ViewInteraction: Performing 'single click' action on view with index: <0>view.getId() is <2131230817/com.example.android.testing.espresso.BasicSample:id/changeTextBt>
+03-09 15:40:35.641   512  7149 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+03-09 15:40:35.642   512  7149 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+03-09 15:40:35.780   512   634 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+03-09 15:40:35.891 22219 22219 I ViewInteraction: Performing 'Text of the view' action on view should return first matching item
+03-09 15:40:35.898   512   557 D EventSequenceValidator: Transition from ACTIVITY_FINISHED to INTENT_STARTED
+03-09 15:40:35.905 22219 22219 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d in: PAUSED
+03-09 15:40:35.905   512   557 D EventSequenceValidator: Transition from INTENT_STARTED to INTENT_FAILED
+03-09 15:40:35.905 22219 22219 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.908   512  1496 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:35.925 22219 22219 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d in: PRE_ON_CREATE
+03-09 15:40:35.925 22219 22219 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.android.testing.espresso.BasicSample/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d
+03-09 15:40:35.940 22219 22219 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d in: CREATED
+03-09 15:40:35.941 22219 22219 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.android.testing.espresso.BasicSample/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d
+03-09 15:40:35.948 22219 22219 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d in: STARTED
+03-09 15:40:35.949 22219 22219 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.android.testing.espresso.BasicSample/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d
+03-09 15:40:35.951 22219 22219 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d in: RESUMED
+03-09 15:40:35.951 22219 22219 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.android.testing.espresso.BasicSample/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d
+03-09 15:40:35.999   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3ec000000 0x3ed124000]
+03-09 15:40:36.009   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3f2253000 0x3f3377000]
+03-09 15:40:36.019   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3f4000000 0x3f5124000]
+03-09 15:40:36.045   512   562 I ActivityTaskManager: Displayed com.example.android.testing.espresso.BasicSample/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +149ms
+03-09 15:40:36.105   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3f112f000 0x3f2253000]
+03-09 15:40:36.119   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3f2253000 0x3f3377000]
+03-09 15:40:36.142 22219 22219 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d in: STOPPED
+03-09 15:40:36.143 22219 22219 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d
+03-09 15:40:36.146 22219 22219 D AutofillManager: onActivityFinishing(): calling cancelLocked()
+03-09 15:40:36.146 22219 22219 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@e9b996d in: DESTROYED
+03-09 15:40:36.146 22219 22219 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+03-09 15:40:36.166   307   325 D goldfish-address-space: claimShared: Ask to claim region [0x3ea0ca000 0x3eb1ee000]
+03-09 15:40:36.195   512  5095 D HostConnection: HostConnection::get() New Host Connection established 0xe9829590, tid 5095
+03-09 15:40:36.199 22219 22219 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d in: PAUSED
+03-09 15:40:36.199 22219 22219 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.android.testing.espresso.BasicSample/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@13b8c3d
+03-09 15:40:36.201   512  1496 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.201   512  1496 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.201   512  1496 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.201   512  1496 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.201   512  1496 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.201   512  1496 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_9 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_6 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_3 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_7 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_8 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_10 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_4 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_11 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_5 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.202   512  1496 W InputReader: Device virtio_input_multi_touch_2 is associated with display ADISPLAY_ID_NONE.
+03-09 15:40:36.207   512  5095 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+03-09 15:40:36.207   512  5095 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+03-09 15:40:36.214 22219 22239 I TestRunner: finished: changeTextAndValidate(com.example.android.testing.espresso.BasicSample.task.tests.ChangeTextTests)

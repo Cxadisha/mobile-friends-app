@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.android.testing.espresso.BasicSample.task.tests.ChangeTextTests" tests="2" failures="0" errors="0" skipped="0" time="8.058" timestamp="2023-03-09T11:40:41" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_6_Pro_API_30(AVD) - 11" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="changeTextAndValidate" classname="com.example.android.testing.espresso.BasicSample.task.tests.ChangeTextTests" time="2.657" />
+  <testcase name="activityTest" classname="com.example.android.testing.espresso.BasicSample.task.tests.ChangeTextTests" time="2.78" />
+</testsuite>
